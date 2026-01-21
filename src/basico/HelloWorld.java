@@ -1,6 +1,6 @@
 package basico;
 
-public class HelloWolrd {
+public class HelloWorld {
   public static void main(String[] args) {
 
     String helloWorld = "Hello World!!!";
