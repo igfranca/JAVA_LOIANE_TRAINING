@@ -1,4 +1,4 @@
-package basico.aula17;
+package basico.aula17e;
 
 public class LoopFor {
   public static void main(String[] args) {

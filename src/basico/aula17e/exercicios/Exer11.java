@@ -1,0 +1,25 @@
+package basico.aula17e.exercicios;
+
+import java.util.Scanner;
+
+public class Exer11 {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+    int soma = 0;
+
+    System.out.println("Entre com o primeiro número");
+    int num1 = sc.nextInt();
+
+    System.out.println("Entre com o segundo número");
+    int num2 = sc.nextInt();
+
+    for (int i=num1; i<=num2; i++){
+      soma += i;
+    }
+
+    System.out.println("Soma: " + soma);
+
+    sc.close();
+  }
+}
